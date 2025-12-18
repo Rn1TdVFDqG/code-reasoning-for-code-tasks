@@ -10,6 +10,8 @@ The rise of large language models (LLMs) has led to dramatic improvements across
 
 This survey organizes code reasoning research along two axes: **Techniques** and **Tasks**.
 
+![Code Reasoning Taxonomy](figure2.png)
+
 ### Code Reasoning Techniques
 
 #### 1. Code Chain-of-Thought (CoT) §3.1
