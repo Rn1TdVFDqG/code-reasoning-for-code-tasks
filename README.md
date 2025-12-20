@@ -12,6 +12,12 @@ This survey organizes code reasoning research along two axes: **Techniques** and
 
 ![Code Reasoning Taxonomy](figure2.png)
 
+### Hybrid Approaches
+
+Many state-of-the-art approaches combine multiple reasoning techniques:
+
+![Hybrid Approaches - Techniques Used](hybrid.png)
+
 ### Code Reasoning Techniques
 
 #### 1. Code Chain-of-Thought (CoT) §3.1
