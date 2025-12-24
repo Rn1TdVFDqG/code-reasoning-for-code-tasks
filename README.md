@@ -1,6 +1,6 @@
-# Code Reasoning for Code Tasks: A Survey and A Call to Action
+# Code Reasoning for Software Engineering Tasks: A Survey and A Call to Action
 
-This repository contains the survey paper "Code Reasoning for Code Tasks: A Survey and A Call to Action" (under review at TMLR).
+This repository contains the survey paper "Code Reasoning for Software Engineering Tasks: A Survey and A Call to Action" (under review at TMLR).
 
 ## Abstract
 
@@ -153,7 +153,7 @@ Many state-of-the-art approaches combine multiple reasoning techniques:
 
 ```bibtex
 @article{codeReasoningSurvey2025,
-  title={Code Reasoning for Code Tasks: A Survey and A Call to Action},
+  title={Code Reasoning for Software Engineering Tasks: A Survey and A Call to Action},
   author={Anonymous authors},
   journal={Under review as submission to TMLR},
   year={2025}
