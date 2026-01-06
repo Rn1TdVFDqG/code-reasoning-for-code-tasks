@@ -140,14 +140,27 @@ Many state-of-the-art approaches combine multiple reasoning techniques:
 
 ## Call to Actions (Future Directions)
 
-1. **CTA-1**: Deeper research on code structure and its impact on code tasks
-2. **CTA-2**: Explore other programming paradigms and design principles in CoT
-3. **CTA-3**: Combine inference scaling with code-structure based CoT approaches
-4. **CTA-4**: Investigate if execution serves as a deterministic check on model rigidity
-5. **CTA-5**: Self-refinement should consider software qualities and integration tests
-6. **CTA-6**: Structured error analysis to help agents avoid repetitive mistakes
-7. **CTA-7**: Design error benchmarks measuring self-induced vs recovery error rates
-8. **CTA-8**: Develop SWE-specific tool-use benchmarks and target agent weak points
+### Structure-based CoT Understanding and Applications
+
+**CTA-1:** Deeper research on code structure and its impact on code tasks will help confirm hypotheses such as: (1) CoT helps by chaining concepts through intermediate topics; (2) code's structured syntax makes primitives (branches, loops, functions) highly local in training data, sharpening probability estimates; (3) modular structures amplify this effect. Validating these may lead to further improvements.
+
+**CTA-2:** Future work should investigate Code CoT approaches that consider other programming paradigms and software design principles for code tasks.
+
+**CTA-3:** Future work should explore combining inference scaling with code-structure based CoT approaches.
+
+### Self-Refinement
+
+**CTA-4:** Future work should investigate whether execution serves as a deterministic check that mitigates model rigidity by filtering bad chains and reducing variance. Understanding this mechanism could inform better training data construction and guide the development of more effective search-based inference scaling techniques.
+
+**CTA-5:** Future work should extend self-refinement approaches beyond unit tests to incorporate software quality metrics (e.g., efficiency, security, maintainability, scalability) and integration testing as feedback mechanisms.
+
+### SWE Agents Improvements and Benchmarks
+
+**CTA-6:** Incorporating a structured way to analyze errors in agents can help them overcome repetitions of the same error, find alternative methods to solve a given step, avoiding waste of resources and increasing their ability to find a solution.
+
+**CTA-7:** Future work should develop error recovery benchmarks that evaluate agents' ability to recover from both self-induced and injected mistakes, measuring category-wise recovery rates and latency costs.
+
+**CTA-8:** Despite progress on agents' benchmark development, there remains a gap in specific tool-use benchmarks tailored to SWE agents which targets the challenge of system orchestration; benchmarks that explicitly target complex issues that agents consistently fail on, and benchmarks, and techniques, that emphasize the specific components of agent decision-making that are most predictive of successful outcomes. All those are areas where future research should focus on to advance the understanding and performance of Agentic solutions.
 
 ## Citation
 
